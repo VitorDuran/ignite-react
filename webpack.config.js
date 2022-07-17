@@ -10,7 +10,7 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx'],
     },
-    module: {
+    module: { test
         rules: [ 
             {
                 test: /\.jsx$/,
