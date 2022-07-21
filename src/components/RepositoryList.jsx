@@ -7,8 +7,6 @@ const repository = {
 
 }
 
-const repositoryName = 'unform2';
-
 
 export function RepositoryList(){
     return ( 
@@ -21,6 +19,7 @@ export function RepositoryList(){
                 <RepositoryItem repository= {repository}/>
                 <RepositoryItem repository= {repository}/>
             </ul>
+
         </section>
     )
 }
